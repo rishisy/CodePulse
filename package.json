@@ -1,0 +1,18 @@
+{
+  "name": "codepulse",
+  "version": "1.0.0",
+  "description": "Code Pulse is a comprehensive platform designed for team management and code deployment, utilizing the mern (mongodb, express.js, react.js, node.js) stack. with a focus on streamlining communication, facilitating efficient code deployment, and ensuring robust security measures, Code Pulse aims to optimize team collaboration and project Mangement",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "Rishi And Mohak",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.3"
+  }
+}
