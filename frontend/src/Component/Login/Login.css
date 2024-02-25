@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.box1 {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.working{
+    margin-left: 70px;
+
+}
+.box2 {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F1F3F6;
+  height: 100vh;
+}
+.codep {
+  display: flex;
+  flex-direction: row;
+}
+.cpulse {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  padding-left: 11px;
+}
+.log {
+  font-family: "Roboto", sans-serif;
+
+  padding-top: 20px;
+  padding-left: 8px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  margin-left: -70px;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    margin-left: -70px;
+}
+.c2{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.same{
+    color:#555555;
+    font-family: "Roboto", sans-serif;
+}
+.ip{
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background-color: #F1F3F6;
+    height: 40px;
+    border-radius: 8px;
+    
+}
+.bt{
+    margin-top: 20px;
+}
+.l2{
+    color:#C2C2C2;
+    
+}
+.l1{
+    width: 40%;
+    height: 1px;
+    background: #C2C2C2;
+    
+}
+.c3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -70px;
+    font-family: "Roboto", sans-serif;
+}
+.c4{
+    margin-top: 20px;
+}
+.btn{
+    
+    height: 40px;
+    background-color: #FD7401;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-left: -70px;
+
+    width: 300px;
+}
+.btns{
+    height: 40px;
+    border-radius: 8px;
+    margin-left: -70px;
+    color: #FD7401;
+    background-color: #FFFFFF;
+    border: 1px solid #FD7401;
+    width: 300px;
+    
+
+}
