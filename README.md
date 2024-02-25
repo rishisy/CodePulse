@@ -49,7 +49,7 @@ Currently Community Contributions are not open due to closed nature of this proj
 
 Contributions are allowed only to team members . 
 
-1. [Rishi](https://www.github.com/rishi)
+1. [Rishi Singh Yadav](https://www.github.com/rishi)
 2. [Mohak](https://github.com/mohak1763)
 
 ## License
