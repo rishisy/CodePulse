@@ -7,7 +7,7 @@ import {
     getUserProfile,
     updateUserProfile
 } from '../controllers/userController.js';
-
+import { protect } from '../middleware/authMiddleware.js';
 
 
 // /api/users/
@@ -17,7 +17,7 @@ router.post('/logout' , logoutUser)
 
 router.post('/auth' , authUser)
 
-router.route('/profile').get(getUserProfile).put(updateUserProfile);
+router.route('/profile').get(getUserProfile).put(protect , updateUserProfile);
 
 
 
