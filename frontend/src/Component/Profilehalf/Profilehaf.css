@@ -8,7 +8,7 @@
   display: flex;
 }
 
-.container {
+.containerprofilehalf {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@
   margin-left: 20px;
   margin-top: 20px;
 }
-.btn {
+.btnmdata {
   background-color: #ffffff6d;
   color: #ffffff;
   width: 100px;

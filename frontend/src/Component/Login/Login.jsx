@@ -6,7 +6,7 @@ import "./Login.css";
 function Login() {
   return (
     <div className="container">
-      <div className="box1">
+      <div className="box1" >
         <div className="working">
           <div className="c1">
             <div className="codep">

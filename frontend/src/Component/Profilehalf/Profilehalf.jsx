@@ -7,11 +7,11 @@ function Profilehalf() {
   return (
     <div className="profileHalf">
       <Navbar />
-      <div className="container">
+      <div className="containerprofilehalf">
         <div className="part1">
           <div className="mf">MY PROFILE</div>
           <div>
-            <button className="btn">My Data</button>
+            <button className="btnmdata">My Data</button>
           </div>
         </div>
         <div className="part2">
