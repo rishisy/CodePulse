@@ -2,7 +2,6 @@ import React from "react";
 import logo from "../../asset/logo.png";
 import mobile from "../../asset/Mobile.png";
 import "./Login.css";
-import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -16,19 +15,21 @@ function Login() {
             </div>
             <div className="log">Login into your account</div>
           </div>
+      <form >
           <div className="c2">
             <div className="email">
               <label className="same">Email Address</label>
-              <input type="email" name="" id="" className="ip" placeholder="abc@gmail.com" required/>
+              <input type="email" name="" id="" className="ip" required  placeholder="abc@gmail.com" />
             </div>
             <div className="password">
               <label className="same" >Password</label>
-              <input type="password" name="" id="" className="ip" placeholder="Enter your password" required/>
+              <input type="password" name="" id="" className="ip" required    placeholder="Enter your password" />
             </div>
             <div className="bt">
-             <button className="btn" type="submit">Login now</button>
+                <input type="submit" value="Login" className="btn" />
             </div>
           </div>
+      </form>
           <div className="c3">
             <div className="l1"></div>
             <div className="l2">OR</div>
@@ -36,7 +37,7 @@ function Login() {
           </div>
           <div className="c4">
             <div className="bt">
-            <Link to={'/Signup'}><button className="btns">Sign up</button></Link>
+              <button className="btns">Sign up</button>
             </div>
           </div>
         </div>
