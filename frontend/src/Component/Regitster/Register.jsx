@@ -1,10 +1,9 @@
 import React from "react";
 import logo from "../../asset/logo.png";
 import mobile from "../../asset/Mobile.png";
-import "./Login.css";
-import { Link } from "react-router-dom";
+import "./Register.css";
 
-function Login() {
+function Register() {
   return (
     <div className="container">
       <div className="box1">
@@ -14,29 +13,31 @@ function Login() {
               <img src={logo} alt="" srcset="" />
               <span className="cpulse">CodePulse</span>
             </div>
-            <div className="log">Login into your account</div>
+            <div className="log">Register Here</div>
           </div>
           <div className="c2">
+          <div className="email">
+              <label className="same">Name</label>
+              <input type="text" name="" id="" className="ip" placeholder="Enter your name" required />
+            </div>
             <div className="email">
               <label className="same">Email Address</label>
               <input type="email" name="" id="" className="ip" placeholder="abc@gmail.com" required/>
             </div>
             <div className="password">
               <label className="same" >Password</label>
-              <input type="password" name="" id="" className="ip" placeholder="Enter your password" required/>
+              <input type="password" name="" id="" className="ip" placeholder="Enter your password" required />
             </div>
-            <div className="bt">
-             <button className="btn" type="submit">Login now</button>
+            <div className="password">
+              <label className="same" >Confirm Password</label>
+              <input type="password" name="" id="" className="ip" placeholder="Enter your password again" required/>
             </div>
+            
           </div>
-          <div className="c3">
-            <div className="l1"></div>
-            <div className="l2">OR</div>
-            <div className="l1"></div>
-          </div>
+          
           <div className="c4">
             <div className="bt">
-            <Link to={'/Signup'}><button className="btns">Sign up</button></Link>
+              <button className="btnsp" type="submit"> Proceed</button>
             </div>
           </div>
         </div>
@@ -48,4 +49,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Register;

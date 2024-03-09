@@ -1,0 +1,62 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.head1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.logo {
+  margin: 10px;
+}
+.secondimg {
+  border: 0.4px solid #e8eff7;
+  width: 270px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.codepulse {
+}
+.head2 {
+  display: flex;
+  align-items: center;
+}
+.secondimg {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.imgcontainer {
+  margin-right: 30px;
+}
+.icon {
+  font-size: 30px;
+}
+.profileText {
+  margin-left: 10px;
+}
+.first {
+  display: flex;
+  align-items: center;
+}
+.first img {
+  background-color: #ffa78d;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
