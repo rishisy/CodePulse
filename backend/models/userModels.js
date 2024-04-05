@@ -1,37 +1,29 @@
 import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
+
 const userSchema = mongoose.Schema({
 
     name:{
-
-
         type:String,
-        required:true
-
-
+        required:true ,
+        minlength:3
     },
     email:{
-
-
         type:String,
         required:true,
         unique:true
-
-
-
     },
     password:{
-
-
         type:String,
-        required:true
-
-
+        required:true,
+       // minlength:6
     },
-
-
-
+    projects: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Project"
+              }],
 },
+
 
     { timestamps:true }
 

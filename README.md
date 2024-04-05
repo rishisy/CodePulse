@@ -20,34 +20,28 @@ npm install
 
 
 
-
-
 Use the package manager [NPM](https://www.npmjs.com/) to install NPM.
 
-```bash
-pip install foobar
-```
 
 ## Usage
 
-```python
-import foobar
+```bash
 
-# returns 'words'
-foobar.pluralize('word')
+# runs backend server
+npm run server
 
-# returns 'geese'
-foobar.pluralize('goose')
+# run frontend server
+cd frontend
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+npm run dev
+
 ```
 
 ## Contributing
 
 Currently Community Contributions are not open due to closed nature of this project . This project is part of UCA 2025 class.
 
-Contributions are allowed only to team members . 
+Contributions are allowed only to team members .
 
 1. [Rishi](https://www.github.com/rishi)
 2. [Mohak](https://github.com/mohak1763)
