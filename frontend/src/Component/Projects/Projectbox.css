@@ -1,9 +1,0 @@
-.cls{
-    display: flex;
-    justify-content: space-between;
-}
-.block{
-    margin-bottom: 10px;
-    margin: 5px;
-    width: 90%;
-}

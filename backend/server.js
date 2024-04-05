@@ -1,14 +1,33 @@
 import express from "express";
+import api from "./routes/index.js";
+import dotenv from "dotenv";
+import mongoose from "mongoose";
+import cors from "cors";
 
-import dotenv from 'dotenv';
+dotenv.config();
+mongoose.connect(
+  "mongodb://0.0.0.0:27017/codepulse",
+  () => {
+    console.log("db connected");
+  },
+  (e) => console.log(e)
+);
 
-dotenv.config() ; 
-
-const port = process.env.PORT || 4080;
+const PORT = process.env.SERVER_PORT || 9000;
+const origin = process.env.CORS_ORIGIN || "http://localhost:3000";
 
 const app = express();
 
-app.get('/' , (req,res) => res.send('Server is Ready now'));
+app.use(
+  cors({
+    origin,
+  })
+);
+app.use(express.json());
+app.use(express.urlencoded());
 
-app.listen(port , () => console.log(`Server started on port ${port}`));
+app.use(api);
 
+app.listen(PORT, () => {
+  console.log(`Your app is running in http://localhost:${PORT}`);
+});
